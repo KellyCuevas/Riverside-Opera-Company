@@ -408,8 +408,8 @@ section h2 {
   }
 
   .about {
-    padding-right: 3rem;
-    padding-left: 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
   }
 
   .events {
@@ -430,8 +430,8 @@ section h2 {
 
   .logo {
     border-radius: 50%;
-    height: 6rem;
-    width: 6rem;
+    height: 5rem;
+    width: 5rem;
     border: 2px solid var(--ltBlue);
   }
   #scroll-to-top {
