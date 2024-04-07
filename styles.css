@@ -31,7 +31,6 @@ html {
 }
 
 body {
-  background: var(--stone);
   font-weight: 400;
   line-height: 1.6;
   font-family: var(--sans-serif);
@@ -151,6 +150,10 @@ small,
 em {
   font-style: italic;
   font-weight: bold;
+}
+
+section {
+  padding: 2rem 4rem;
 }
 
 .wrapper {
@@ -292,10 +295,6 @@ section h2 {
   /* white-space: nowrap; */
 }
 
-section {
-  padding: 2rem 4rem;
-}
-
 .video-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -308,7 +307,7 @@ section {
 
 .video-container figcaption {
   color: var(--white);
-  max-width: 350px;
+  max-width: 300px;
 }
 
 #video {
@@ -409,8 +408,8 @@ section {
   }
 
   .about {
-    padding-right: 5rem;
-    padding-left: 5rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
   }
 
   .events {
