@@ -106,21 +106,6 @@ small,
 .text_small {
   font-size: calc(var(--base-size) / var(--scale));
 }
-.colors {
-  display: flex;
-  gap: 1rem;
-}
-
-.colors > * {
-  height: 3rem;
-  width: 3rem;
-  text-align: center;
-}
-
-.color-container > div {
-  height: 3rem;
-  width: 3rem;
-}
 
 .navy {
   background-color: var(--navy);
@@ -283,8 +268,17 @@ section h2 {
   object-fit: cover;
   float: right;
   shape-outside: circle();
-  margin: 2rem;
+  margin-left: 2rem;
   margin-top: 0 auto;
+}
+.about-img-2 {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  object-fit: cover;
+  float: left;
+  shape-outside: circle();
+  margin-right: 2rem;
 }
 
 .about-text {
@@ -324,6 +318,7 @@ section h2 {
 .events figure {
   max-width: 75%;
   margin: 0 auto;
+  text-align: center;
 }
 
 .events figcaption {
@@ -408,18 +403,29 @@ section h2 {
   }
 
   .about {
+    /* min-height: 55rem; */
     padding-right: 2rem;
     padding-left: 2rem;
   }
 
   .events {
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .events figure {
+    max-width: 90%;
+    margin: 0 auto;
   }
 
   .about-img {
-    height: 18rem;
-    width: 18rem;
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .about-img-2 {
+    height: 7rem;
+    width: 7rem;
   }
 
   .about-text,
@@ -430,8 +436,8 @@ section h2 {
 
   .logo {
     border-radius: 50%;
-    height: 5rem;
-    width: 5rem;
+    height: 4rem;
+    width: 4rem;
     border: 2px solid var(--ltBlue);
   }
   #scroll-to-top {
@@ -473,7 +479,7 @@ section h2 {
   }
 
   .hamburger-container {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
   }
   .hamburger,
   .hamburger::before,
