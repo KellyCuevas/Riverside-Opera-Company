@@ -313,12 +313,15 @@ section h2 {
   background-color: var(--stone);
   display: grid;
   justify-content: center;
+ 
 }
 
 .events figure {
   max-width: 75%;
   margin: 0 auto;
   text-align: justify;
+  padding-right: 32px;
+  padding-left: 32px;
 }
 
 
@@ -345,11 +348,11 @@ section h2 {
   display: flex;
   justify-content: center;
   align-items: center;
- padding-bottom: 32px;
+ /* padding-bottom: 32px; */
 
 }
 .map-container {
-  width: 600px;
+  max-width: 600px;
   height:450px;
   margin: 24px auto;
 }
@@ -361,8 +364,12 @@ section h2 {
 
 .events figure {
   border-bottom: #548cf3 1px solid;
-  margin-bottom: 32px;
+  padding-bottom: 32px;
   padding-top: 32px;
+}
+.events figure:last-of-type {
+  border-bottom: none;
+ 
 }
 
 .event-image {
@@ -452,13 +459,13 @@ section h2 {
   }
 
   .events figure {
-    max-width: 90%;
+    max-width: 100%;
     margin: 0 auto;
   }
 
   .map-container {
-    width: 500px;
-    height: 350px;
+    max-width: 400px;
+    height: 250px;
   }
 
   .about-img {
@@ -472,7 +479,8 @@ section h2 {
   }
 
   .about-text,
-  .events figcaption {
+  .events figcaption 
+  {
     font-size: var(--h6);
     min-width: 40%;
   }
