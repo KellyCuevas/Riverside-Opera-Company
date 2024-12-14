@@ -139,6 +139,7 @@ em {
 
 section {
   padding: 2rem 4rem;
+  width: 100%;
 }
 
 .wrapper {
@@ -251,6 +252,7 @@ section {
 
 .about {
   background-color: var(--stone);
+  width: 100%;
   min-height: 40rem;
   padding-right: 9rem;
   padding-left: 9rem;
@@ -311,9 +313,11 @@ section h2 {
 
 .events {
   background-color: var(--stone);
+  width: 100%;
   display: grid;
   justify-content: center;
- 
+  padding-right: 9rem;
+  padding-left: 9rem;
 }
 
 .events figure {
@@ -630,6 +634,10 @@ section h2 {
     align-items: center;
     margin: auto;
     gap: 2rem;
+  }
+
+  .video-container figure iframe {
+    max-width: 95vw;
   }
 
   .event-image {
